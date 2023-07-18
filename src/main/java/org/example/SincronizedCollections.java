@@ -3,9 +3,8 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
-public class SincronizarCollections {
+public class SincronizedCollections {
 
     static List<String> lista = new ArrayList<>();
     //static List<String> lista = Collections.synchronizedList(Collections.EMPTY_LIST);
